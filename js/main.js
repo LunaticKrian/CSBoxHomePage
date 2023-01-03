@@ -1,10 +1,3 @@
-/*
-作者: imsyy
-主页：https://www.imsyy.top/
-GitHub：https://github.com/imsyy/home
-版权所有，请勿删除
-*/
-
 //弹窗样式
 iziToast.settings({
     timeout: 10000,
@@ -402,21 +395,17 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `
-let title1 = '無名の主页'
+let title1 = 'CSBoxの主页'
 let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
+ ____   ____ _____  ____ __  __
+/ (__\` (_ (_\`| () )/ () \\\\ \\/ /
+\\____).__)__)|_()_)\\____//_/\\_\\                                              
 `
 let content = `
-版 本 号：3.4
-更新日期：2022-07-24
+版 本 号：1.0
+更新日期：2023-01-01
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页:  www.csbox.wiki
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
